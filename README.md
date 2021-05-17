@@ -1,5 +1,7 @@
 # g-CXR-Net: A graphic interface for CXR-Net
 
+A graphic interface to run CXR-Net
+
 g-CXR-Net is a graphic interface to run CXR-Net two-module Artificial Intelligence pipeline for the quick detection of SARS-CoV-2 from Antero/Posterior (A/P) chest X-rays (CXRs). 
 
 The repository contains two folders, Module_1 and Module_2, required to build a functional CXR-Net model. 
