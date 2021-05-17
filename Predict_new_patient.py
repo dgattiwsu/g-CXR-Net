@@ -4,7 +4,7 @@
 # ### Predict lung masks and Covid vs non-Covid classification for new patient CXR using Module 1 trained on the V7 lung segmentation database, and Module 2 trained on the HFHS dataset   
 # 
 # usage:  python Predict_new_patient.py --dirs new_patient_cxr image_dcm 
-#                                  image_resized_equalized_from_dcm mask_binary 
+#                                  image_resized_equalized mask_binary 
 #                                  mask_float image_mask H5 grad_cam 
 #                                  [--imgs name1.dcm name2.dcm ... nameN.dcm]
 
