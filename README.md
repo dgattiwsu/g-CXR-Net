@@ -1,4 +1,4 @@
-g-CXR-Net: A graphic interface for CXR-Net
+# g-CXR-Net: A graphic interface for CXR-Net
 
 g-CXR-Net is a graphic interface to run CXR-Net two-module Artificial Intelligence pipeline for the quick detection of SARS-CoV-2 from Antero/Posterior (A/P) chest X-rays (CXRs). 
 
