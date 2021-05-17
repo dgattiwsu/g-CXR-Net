@@ -273,6 +273,8 @@ def on_click():
     for valid_image_name in source_img_names:
         if valid_image_name == '.DS_Store': 
             continue
+        if valid_image_name == '__init__.py': 
+            continue        
         if (entries[8]!='') and (valid_image_name not in selected_imgs):
             continue    
 
