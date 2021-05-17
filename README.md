@@ -1,21 +1,5 @@
 g-CXR-Net: A graphic interface for CXR-Net
 
-Haikal Abdulah 1,4, Benjamin Huber 1,4, Hassan Abdallah 3, Luigi L. Palese 4, Hamid Soltanian-Zadeh 5, Domenico L. Gatti 1,2,6*
-
-1 Department of Biochemistry, Microbiology and Immunology, Wayne State Univ., Detroit, MI, USA
-
-2 NanoBioScience Institute, Wayne State Univ., Detroit, MI, USA
-
-3 Department of Biostatistics, University of Michigan, Ann Arbor, MI, USA
-
-4 Department of Basic Medical Sciences, Neurosciences and Sense Organs, Univ. of Bari Aldo Moro, Bari, Italy
-
-5 Departments of Radiology and Research Administration, Henry Ford Health System, Detroit, MI, USA
-
-6 Molecular Medicine Institute, Cambridge, MA 02138,USA
-
-*E-mail: dgatti@med.wayne.edu
-
 g-CXR-Net is a graphic interface to run CXR-Net two-module Artificial Intelligence pipeline for the quick detection of SARS-CoV-2 from Antero/Posterior (A/P) chest X-rays (CXRs). 
 
 The repository contains two folders, Module_1 and Module_2, required to build a functional CXR-Net model. 
