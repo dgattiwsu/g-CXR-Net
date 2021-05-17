@@ -5,6 +5,10 @@ Created on Mon May 10 14:11:59 2021
 
 @author: dgatti
 """
+# ### Calculate lung masks and Covid vs non-Covid scores 
+# 
+# To launch from the command line:  
+# /Path to python executable inside virtual env/python CXR_Net_gui.py --xdir 'directory where this script resides'
 
 # In[0]:
 import os
