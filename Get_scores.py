@@ -323,8 +323,11 @@ with strategy.scope():
     # ensemble_model.save('models/ensemble_model')
     # Save ensemble model in h5 format    
     # ensemble_model.save('models/ensemble_model.h5')
- 
-
+    # ensemble_model.save('models/ensemble_' + model_selection + '_' + model_number + '_all' + '.h5',
+    #         overwrite=True,include_optimizer=False,save_format='h5',signatures=None,options=None)   
+    # Save ensemble model weights
+    # ensemble_model.save_weights('models/ensemble_' + model_selection + '_' + model_number + '_weights' + '.h5')
+        
 # In[12]:
 
 # ### GENERATOR for 1 IMAGE at a time
