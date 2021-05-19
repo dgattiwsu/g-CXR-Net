@@ -8,7 +8,7 @@ A Python script, Predict_new_patient.py, can be used to run CXR-net in a termina
 
 A GUI application, CXR_Net_gui.py is also provided, with python scripts Get_masks.py (running Module I) and Get_scores.py (running Module II) as backends. The app can be launched from a virtual env with the command line syntax: python CXR_Net_gui.py --xdir 'executable_dir', where 'executable_dir' is the directory where CXR_Net_gui.py itself is located. This syntax is retained in order to facilitate the creation of an icon located anywhere in the os tree, linked to the application. Python scripts to generate icon links to run g-CXR-Net are provided in the directory CXR_Net_icons. The app can also be run outside a virtual environment, but in this case a full path to python location in the virtuel env must be provided. 
 
-A video describing the use of g-CXR-Net can be watched/downloaded from the website listed below.
+A video describing the use of g-CXR-Net can be watched/downloaded at http://veloce.med.wayne.edu/~gatti/neural-networks/cxr-net.html.
 
 For additional information e-mail to:
 
