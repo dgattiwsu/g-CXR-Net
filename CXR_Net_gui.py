@@ -463,6 +463,9 @@ def open_img1():
     panel1.configure(image=current_img)
     panel1.image = current_img         
     panel1.grid(row=2,column=3,rowspan=7,columnspan=3)
+    
+    # Deactivate button after selection to avoid img superposition
+    button_9_4['state'] = DISABLED    
 
 button_9_4 = Button(main_window, text='Display CXR/mask', 
        font=('Helvetica',10,'bold'),
@@ -475,6 +478,7 @@ button_9_4.grid(row=9,column=4,padx=20)
 def delete_img1():
     panel1.grid_forget()
     # panel.destroy()
+    button_9_4['state'] = NORMAL    
           
 button_9_5 = Button(main_window, text='Delete CXR/mask', 
         font=('Helvetica',10,'bold'),
@@ -516,7 +520,7 @@ def open_img2():
             HEIGHT = int(np.floor(300*scale))
         else:
             WIDTH = int(np.floor(340*scale))
-            HEIGHT = int(np.floor(300*scale))                       
+            HEIGHT = int(np.floor(300*scale))                          
         img = img.resize((WIDTH, HEIGHT), Image.ANTIALIAS)
             
     current_img = ImageTk.PhotoImage(img) 
@@ -524,6 +528,9 @@ def open_img2():
     panel2.configure(image=current_img)
     panel2.image = current_img         
     panel2.grid(row=10,column=3,rowspan=2,columnspan=3)
+
+    # Deactivate button after selection to avoid img superposition
+    button_12_4['state'] = DISABLED    
 
 button_12_4 = Button(main_window, text='Display heat map', 
        font=('Helvetica',10,'bold'),
@@ -535,6 +542,7 @@ button_12_4.grid(row=12,column=4,padx=20)
 def delete_img2():
     panel2.grid_forget()
     # panel2.destroy()
+    button_12_4['state'] = NORMAL     
           
 button_12_5 = Button(main_window, text='Delete heat map', 
         font=('Helvetica',10,'bold'),
