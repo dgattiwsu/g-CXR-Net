@@ -12,6 +12,7 @@ Created on Mon May 10 14:11:59 2021
 
 # In[0]:
 import os
+import subprocess,shlex
 from os import listdir, path
 from os.path import isfile, join
 import argparse
@@ -312,10 +313,8 @@ button_9_0.grid(row=9,column=0,pady=10)
 def get_masks_threaded():
     Thread(target=get_masks).start()
 
-
 def get_masks():
-    
-    
+        
     # Read in 'new patient list'
     H5_IMAGE_DIR = os.path.join(entries[0], entries[6])
     with open(os.path.join(H5_IMAGE_DIR, 'new_patient_dataset.json'),'r') as filehandle:
@@ -347,7 +346,10 @@ def get_masks():
                               
         print(f'Command syntax: {command_line}')
         
-    os.system(command_line)
+    # os.system(command_line)
+    args = shlex.split(command_line)           
+    get_masks_result = subprocess.run(args,\
+                                      shell=False,stdout=None,stderr=None)     
 
     # dirlist.insert(END,'')
     dirlist.insert(END,'Mask calculation completed')
@@ -363,7 +365,6 @@ button_10_0.grid(row=10,column=0,pady=10)
 def get_scores_threaded():
     Thread(target=get_scores).start()
 
-
 def get_scores():
     
     # dirlist.delete(0,END)
@@ -378,8 +379,10 @@ def get_scores():
                              
     print(f'Command syntax: {command_line}')
         
-    os.system(command_line)
-
+    # os.system(command_line)
+    args = shlex.split(command_line)           
+    get_scores_result = subprocess.run(args,\
+                                      shell=False,stdout=None,stderr=None)     
         
     H5_IMAGE_DIR = os.path.join(entries[0], entries[6])
     with open(os.path.join(H5_IMAGE_DIR, 'new_patient_dataset.json'),'r') as filehandle_1:
