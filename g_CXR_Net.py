@@ -621,7 +621,7 @@ def get_scores():
     # from MODULES_2.Losses import other_metrics_binary_class
     from MODULES_2.Constants import _Params, _Paths
     # from MODULES_2.Utils import get_class_threshold, standardize, commonelem_set
-    from MODULES_2.Utils import _HEAT_MAP_DIFF, _HEAT_MAP_DIFF_cv2   
+    # from MODULES_2.Utils import _HEAT_MAP_DIFF   
         
 # In[]:
         
