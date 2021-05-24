@@ -937,7 +937,7 @@ def get_heat_maps():
     
     # dirlist.delete(0,END)
     # dirlist.insert(END,'')    
-    dirlist.insert(END,'Calculating heat mapsmaps') 
+    dirlist.insert(END,'Calculating heat maps') 
     
     # ### HEAT MAPS
     
