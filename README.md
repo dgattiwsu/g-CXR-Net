@@ -8,6 +8,10 @@ The GUI app, g_CXR_Net.py, can be launched from a virtual env with the command l
 
 A video describing the use of g-CXR-Net can be watched/downloaded at http://veloce.med.wayne.edu/~gatti/neural-networks/cxr-net.html.
 
+A brief medRxiv article describing the features of g-CXR-Net is available at https://medrxiv.org/cgi/content/short/2021.06.06.21258428v1.
+
+<img width="249" alt="Screen Shot 2021-06-10 at 2 47 52 PM" src="https://user-images.githubusercontent.com/32550835/121580748-19196100-c9fb-11eb-9701-09e329575d5e.png">
+
 For additional information e-mail to:
 
 Domenico Gatti
