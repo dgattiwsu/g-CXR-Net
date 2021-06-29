@@ -10,7 +10,8 @@ A video describing the use of g-CXR-Net can be watched/downloaded at http://velo
 
 A brief medRxiv article describing the features of g-CXR-Net is available at https://medrxiv.org/cgi/content/short/2021.06.06.21258428v1, or by mobile device's via the QR code shown below:
 
-<img width="249" alt="Screen Shot 2021-06-10 at 2 47 52 PM" src="https://user-images.githubusercontent.com/32550835/121580748-19196100-c9fb-11eb-9701-09e329575d5e.png">
+QR_code_medRxiv<img width="249" alt="image" src="https://user-images.githubusercontent.com/32550835/123862514-6ac85380-d8f6-11eb-9408-ab2df911c68c.png">
+
 
 For additional information e-mail to:
 
